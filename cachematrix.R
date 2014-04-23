@@ -1,8 +1,4 @@
-##  
-
-Put comments here that give an overall description of what your
-
-## Make Cache Matrix same as Cache Mean.. 
+## Make Cache Matrix function with various functions to cal inverse of matrix and cache 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,8 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-#
+## CacheSolve function .. checks whether the matrix solution exists. If yes, retrun cache else compute 
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
        m <- x$getsolve()
